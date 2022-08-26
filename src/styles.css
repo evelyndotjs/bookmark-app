@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  color: hsl(229, 31%, 21%);
+}
+
+.btn-primary {
+    color: #fff ;
+    background-color: hsl(231, 69%, 60%) ;
+    border-color: hsl(231, 69%, 60%);
+    font-weight: bold;
+  }
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+    color: hsl(231, 69%, 60%);
+    background-color: #FFF;
+    border-color: hsl(231, 69%, 60%);
+}
+
+.btn-secondary {
+  color: hsl(229, 8%, 60%) ;
+  background-color: #F8F8F8 ;
+  border-color: hsl(229, 8%, 60%) ;
+  font-weight: bold;
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open>.dropdown-toggle.btn-secondary {
+  color: hsl(229, 8%, 60%) ;
+  background-color: #FFF ;
+  border-color: hsl(229, 8%, 60%) ;
+}
+
+.btn-danger {
+    color: #FFF;
+    background-color: hsl(0, 94%, 66%);
+    font-weight: bold;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.open>.dropdown-toggle.btn-danger {
+    color: hsl(0, 94%, 66%);
+    background-color: #FFF;
+}
+
+.links {
+  margin: auto;
+}
+
+.links:hover {
+  color: hsl(0, 94%, 66%) !important;
+}
+
+.accordion-body {
+  color:hsl(229, 8%, 60%);
+  line-height: 2;
+}
+
+.accordion-button:link, .accordion-button:visited, .accordion-button:hover, .accordion-button:active  {
+  color:hsl(0, 94%, 66%);      
+}
+
+.accordion-button:not(.collapsed) {
+color:hsl(229, 31%, 21%);
+  background-color: #FFF;
+}
+
+.accordion-button {
+  font-size: 1.1rem;
+}
