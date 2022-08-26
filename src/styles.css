@@ -4,47 +4,44 @@ body {
   font-family: "Rubik", sans-serif;
   font-size: 18px;
   color: hsl(229, 31%, 21%);
+  width: 1440px;
 }
 
 .btn-primary {
     color: #fff ;
-    background-color: hsl(231, 69%, 60%) ;
-    border-color: hsl(231, 69%, 60%);
-    font-weight: bold;
+    background-color: hsl(231, 69%, 60%) !important ;
+    border-color: hsl(231, 69%, 60%)!important;
+    font-weight: bold !important;
   }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active{
-    color: hsl(231, 69%, 60%);
-    background-color: #FFF;
-    border-color: hsl(231, 69%, 60%);
+.btn-primary:hover{
+    color: hsl(231, 69%, 60%) !important;
+    background-color: #FFF !important;
+    border-color: hsl(231, 69%, 60%) !important;
 }
 
 .btn-secondary {
-  color: hsl(229, 8%, 60%) ;
-  background-color: #F8F8F8 ;
-  border-color: hsl(229, 8%, 60%) ;
+  color: hsl(229, 8%, 60%) !important;
+  background-color: #F8F8F8 !important;
+  border-color: hsl(229, 8%, 60%) !important;
   font-weight: bold;
 }
 
-.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open>.dropdown-toggle.btn-secondary {
-  color: hsl(229, 8%, 60%) ;
-  background-color: #FFF ;
-  border-color: hsl(229, 8%, 60%) ;
+.btn-secondary:hover {
+  color: hsl(229, 8%, 60%) !important;
+  background-color: #FFF !important;
+  border-color: hsl(229, 8%, 60%) !important;
 }
 
 .btn-danger {
-    color: #FFF;
-    background-color: hsl(0, 94%, 66%);
+    color: #FFF !important;
+    background-color: hsl(0, 94%, 66% )!important;
     font-weight: bold;
 }
 
-.btn-danger:hover,
-.btn-danger:focus,
-.btn-danger:active,
-.btn-danger.active,
-.open>.dropdown-toggle.btn-danger {
-    color: hsl(0, 94%, 66%);
-    background-color: #FFF;
+.btn-danger:hover {
+    color: hsl(0, 94%, 66%) !important;
+    background-color: #FFF !important;
 }
 
 .links {
@@ -56,11 +53,11 @@ body {
 }
 
 .accordion-body {
-  color:hsl(229, 8%, 60%);
+  color:hsl(229, 8%, 60%) !important;
   line-height: 2;
 }
 
-.accordion-button:link, .accordion-button:visited, .accordion-button:hover, .accordion-button:active  {
+.accordion-button:hover {
   color:hsl(0, 94%, 66%);      
 }
 
@@ -69,6 +66,15 @@ color:hsl(229, 31%, 21%);
   background-color: #FFF;
 }
 
-.accordion-button {
-  font-size: 1.1rem;
+.tab-link-color {
+  color: hsl(229, 31%, 21%);
+  
+}
+
+.tab-link-color:hover{
+  color:hsl(0, 94%, 66%) !important;
+}
+
+.tabBarOptions{
+  border-top-width: 0;
 }

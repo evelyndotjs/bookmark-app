@@ -45,10 +45,6 @@ export default function Features() {
     margin: "0 auto",
   };
 
-  //styling tab doesn't work
-  //created a new css file with tab-link but still not working
-  //console log the tab-link class to see if it works
-
   return (
     <>
       <StyledIntroContainer id="features">
@@ -64,8 +60,13 @@ export default function Features() {
         defaultActiveKey="bookmark"
         id="feature-tabs"
         className="mb-3 tab-link"
+        justify
       >
-        <Tab eventKey="bookmark" title="Simple Bookmarking">
+        <Tab
+          eventKey="bookmark"
+          title="Simple Bookmarking"
+          tabClassName="tab-link-color"
+        >
           <FlexContainer>
             <div>
               <img
@@ -84,7 +85,11 @@ export default function Features() {
             </StyledTextContainer>
           </FlexContainer>
         </Tab>
-        <Tab eventKey="search" title="Speedy Searching">
+        <Tab
+          eventKey="search"
+          title="Speedy Searching"
+          tabClassName="tab-link-color"
+        >
           <FlexContainer>
             <div>
               <img
@@ -102,7 +107,11 @@ export default function Features() {
             </StyledTextContainer>
           </FlexContainer>
         </Tab>
-        <Tab eventKey="share" title="Easy Sharing">
+        <Tab
+          eventKey="share"
+          title="Easy Sharing"
+          tabClassName="tab-link-color"
+        >
           <FlexContainer>
             <div>
               <img

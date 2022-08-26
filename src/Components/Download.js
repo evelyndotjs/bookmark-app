@@ -19,9 +19,6 @@ const StyledParagraph = styled.p`
 `;
 
 export default function Download() {
-
-
-  
   return (
     <>
       <StyledIntroContainer>

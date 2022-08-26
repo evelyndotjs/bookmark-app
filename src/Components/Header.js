@@ -5,8 +5,9 @@ import styled from "styled-components";
 const FlexContainer = styled.div`
   display: flex;
   align-items: center;
-  width: 80%;
-  margin: 80px auto 0;
+  margin: 80px auto;
+  justify-content: center;
+  padding: 0 80px;
 `;
 
 const StyledTitle = styled.h1`
@@ -41,6 +42,7 @@ export default function Header() {
           A clean and simple interface to organize your favorite websites. Open
           a new browser tab and see your sites load instantly. Try for free.
         </StyledParagraph>
+
         <StyledButton text={"Get it on Chrome"} style={purpleBtn} />
         <StyledButton
           text={"Get it on Firefox"}
